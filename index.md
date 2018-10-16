@@ -18,8 +18,8 @@ which is **available after approval** from [AmazingHiring sales manager](mailto:
 
 ### Use the access token
 
-The token key should be included in the `Authorization` header. 
-The key should be prefixed by the string literal "Token", with whitespace separating the two strings. For example::
+The token key should be included in the `Authorization` header.
+The key should be prefixed by the string literal "Token" \(or "Bearer" if your appliccatoin authorized via [oAuth2.0](https://amazinghiring.github.io/oauth2-docs/)\), with whitespace separating the two strings. For example:
 
 ```
    Authorization: Token a0b1c2d3e4f5
