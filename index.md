@@ -127,6 +127,10 @@ Response example:
       "start": 1995
     },
   ],
+  "languages": {
+        "English": "Limited working proficiency",
+        "Dutch": "Native or bilingual proficiency"
+  },
   "positions": [
     {
       "company": {
