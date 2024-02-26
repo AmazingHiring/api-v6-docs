@@ -65,6 +65,7 @@ Response example:
   ],
   "age": 30,
   "birthday": "1990-01-01",
+  "general_info": "Designing server-side business logic.",
   "comments": [
     {
       "id": 1,
@@ -172,7 +173,59 @@ Response example:
         }
       ]
     }
-  ]
+  ],
+  "all_skills_grouped": [
+        {
+            "id": "programming-languages",
+            "name": "Programming Languages",
+            "skills": [
+                {
+                    "name": "Python",
+                    "sources": [
+                        {
+                            "url": "https://amazinghiring.com/"
+                        }
+                    ],
+                    "additional_skills": [
+                        {
+                            "name": "Django",
+                            "sources": [
+                                {
+                                    "url": "https://amazinghiring.com/"
+                                }
+                            ],
+                            "additional_skills": []
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "id": "databases",
+            "name": "Databases",
+            "skills": [
+                {
+                    "name": "SQL",
+                    "sources": [
+                        {
+                            "url": "https://amazinghiring.com/"
+                        }
+                    ],
+                    "additional_skills": [
+                        {
+                            "name": "PostgreSQL",
+                            "sources": [
+                                {
+                                    "url": "https://amazinghiring.com/"
+                                }
+                            ],
+                            "additional_skills": []
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
 }
 ```
 
